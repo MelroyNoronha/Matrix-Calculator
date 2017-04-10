@@ -1,0 +1,33 @@
+
+body{
+	background-color:#E65100;
+}
+
+header{
+	text-align:center;
+	color:black;
+	font-family:courier;
+	font-size:3vw;
+	margin-top:-5vh;
+}
+
+.MatHead{
+	color:white;
+	font-family:courier;
+	font-size:2vw;
+	margin-top:-8vh;
+}
+
+#MatHead1{
+	float:left;
+	padding-left:17%;
+	
+}
+
+#MatHead2{
+	float:right;
+	padding-right:17%;
+	
+}
+
+	
