@@ -1,33 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
-body{
-	background-color:#E65100;
+body {
+  margin: 0px;
+  background-color: white;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto 1fr;
 }
 
-header{
-	text-align:center;
-	color:black;
-	font-family:courier;
-	font-size:3vw;
-	margin-top:-5vh;
+.header {
+  background-color: lightgrey;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  text-align: center;
 }
 
-.MatHead{
-	color:white;
-	font-family:courier;
-	font-size:2vw;
-	margin-top:-8vh;
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 2;
 }
 
-#MatHead1{
-	float:left;
-	padding-left:17%;
-	
+#matHead1 {
+  background-color: lightgrey;
+  grid-row: 2;
+  grid-column: 1;
 }
 
-#MatHead2{
-	float:right;
-	padding-right:17%;
-	
+#matHead2 {
+  background-color: darkgrey;
+  grid-row: 2;
+  grid-column: 2;
 }
-
-	
